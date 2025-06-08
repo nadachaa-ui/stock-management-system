@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { DivideIcon as LucideIcon } from 'lucide-react';
+import { Icon } from 'lucide-react';
 
 interface StatsCardProps {
   title: string;
   value: string | number;
   change: string;
   changeType: 'positive' | 'negative' | 'neutral';
-  icon: LucideIcon;
+  icon: Icon;
   index: number;
 }
 
